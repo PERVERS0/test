@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav1 img{
+    width: 20px;
+    height: 20px;
+}
+.nav1{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.nav1 li, a{
+    text-decoration: none;
+    padding: 10px;
+    list-style: none;
+    display: inline;
+    color: white;
+}
+.nav2{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+}
+.nav2 li{
+    padding: 10px;
+    display: inline;
+}
+.nav2 a{
+    color: rgb(65, 64, 64);
+    
+}
+.nav2 ul{
+    margin-left: 400px;
+}
+.nav2 h2{
+    margin-left: 200px;
+}
+.nav2 button{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.nav3{
+    background-color: rgb(234, 232, 232);
+    text-align: center;
+    padding: 15px;
+}.nav3 a{
+ color: blue;   
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textos h1{
+    font-size: 80px;
+    padding: 50px;
+}
+.textos p{
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+}
+.textos button{
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.imagens img{
+    width: 100%;
+    height: 50%;
+}
+#cores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cores button{
+    border: 5px solid ;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+}
+#preto{
+    background-color: black;
+    color: white;
+}
+#verde{
+    background-color: green;
+    border: 5px solid green;
+    color: white;
+}
+#azul{
+    background-color: blue;
+    color: white;
+    border: 5px solid blue;
+}
+@media (max-width: 480px){
+    .nav1 li{
+        display: none;
+    }
+    .container{
+        overflow: hidden;
+    }
+    .nav1 img{
+        display: flex;
+    }
+    .textos h1{
+        font-size: 60px;
+        padding: 50px;
+    }
+    .nav2 h2{
+        font-size: 20px;
+       margin-left: 150px;
+       margin-top: 20px;
+    }
+
+    .nav2{
+        height: 70px;
+    }
+    .nav2 ul{
+        display: none;
+    }
+}
